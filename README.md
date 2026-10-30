@@ -33,8 +33,14 @@ El sistema automatiza la limpieza de registros nulos o inconsistentes, calcula l
 
 °Plotly Express (Visualizacion interactiva)
 
-Instrucciones de Instalacion y Ejecucion
-1.- Asegurate de estar ubicado en la carpeta raiz del proyecto en tu terminal.
-``` pip install pandas streamlit plotly``` 
-2.- Instala las librerias requeridas ejecutando:
-``` streamlit run dashboard/app.py ``` 
+## Instrucciones de Instalacion y Ejecucion
+
+1. Asegurate de estar ubicado en la carpeta raiz del proyecto en tu terminal.
+2. Instala las librerias requeridas ejecutando:
+   ```bash
+   pip install pandas streamlit plotly
+
+   
+Ejecuta la aplicacion web con el siguiente comando:
+```bash
+  streamlit run dashboard/app.py
