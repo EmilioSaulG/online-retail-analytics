@@ -41,15 +41,25 @@ El sistema automatiza la limpieza de registros nulos o inconsistentes, calcula l
    pip install pandas streamlit plotly
 
    
-Ejecuta la aplicacion web con el siguiente comando:
-```bash
-  streamlit run dashboard/app.py
+# Online Retail Analytics Platform
 
-## Arquitectura y Calidad de Código
+## Descripción General
+El sistema automatiza la limpieza de registros nulos o inconsistentes, calcula las métricas de comportamiento de compra para cada cliente y despliega un panel de control interactivo. Permite consultar los indicadores clave de desempeño (KPIs), analizar visualmente a los clientes con mayor volumen de gasto y explorar la información de forma dinámica mediante filtros de negocio.
 
-El proyecto está diseñado bajo principios de modularidad e ingeniería de software:
+---
 
-- **Procesamiento Modular (`src/`)**: Separación limpia entre la ingesta de datos, la limpieza de registros y el cálculo del modelo RFM.
-- **Capa de Consultas SQL (`sql/`)**: Consultas analíticas estructuradas para la extracción de métricas clave de negocio, productos Top e ingresos mensuales.
-- **Pruebas Automatizadas (`tests/`)**: Pruebas unitarias integradas con `pytest` para garantizar la integridad de las transformaciones y cálculos numéricos.
-- **Despliegue Continuo**: Integración directa con Streamlit Community Cloud para su consumo en la nube en tiempo real.
+## Requisitos y Tecnologías
+* **Python 3.x**
+* **Pandas**: Manipulación y limpieza de datos
+* **Streamlit**: Desarrollo del dashboard web interactivo
+* **Plotly Express**: Visualización interactiva de datos
+* **PyTest**: Pruebas unitarias automatizadas
+
+---
+
+## Instrucciones de Instalación y Ejecución
+
+1. Asegúrate de estar ubicado en la carpeta raíz del proyecto en tu terminal.
+2. Instala las librerías requeridas ejecutando:
+   ```bash
+   pip install -r requirements.txtn Streamlit Community Cloud para su consumo en la nube en tiempo real.
