@@ -2,3 +2,11 @@
 __pycache__/
 *.py[cod]
 *$py.class
+
+# Entornos virtuales
+venv/
+env/
+.env
+
+# Archivos del sistema operativo
+.DS_Store
