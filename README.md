@@ -21,25 +21,6 @@ online-retail-analytics/
 ├── README.md                      # Documentacion del proyecto
 └── requirements.txt               # Dependencias de Python
 ```
-Descripcion General
-El sistema automatiza la limpieza de registros nulos o inconsistentes, calcula las metricas de comportamiento de compra para cada cliente y despliega un panel de control interactivo. Permite consultar los indicadores clave de desempeño (KPIs), analizar visualmente a los clientes con mayor volumen de gasto y explorar la informacion de forma dinamica mediante filtros de negocio.
-
-##Requisitos y Tecnologias
-°Python 3.x
-
-°Pandas (Manipulacion de datos)
-
-°Streamlit (Desarrollo del dashboard)
-
-°Plotly Express (Visualizacion interactiva)
-
-## Instrucciones de Instalacion y Ejecucion
-
-1. Asegurate de estar ubicado en la carpeta raiz del proyecto en tu terminal.
-2. Instala las librerias requeridas ejecutando:
-   ```bash
-   pip install pandas streamlit plotly
-
    
 # Online Retail Analytics Platform
 
