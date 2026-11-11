@@ -1,7 +1,12 @@
-
 # Online Retail Analytics y Segmentación de Clientes
 
 **Análisis de datos transaccionales | Python | SQL | Streamlit | Modelo RFM**
+
+<p align="center">
+  <a href="https://online-retail-analytics-5mhtjnsdcsvwh7k5eg2tqt.streamlit.app/">
+    <strong>Ver Dashboard Interactivo</strong>
+  </a>
+</p>
 
 ## Descripción del proyecto
 
@@ -169,9 +174,13 @@ El proyecto sigue un enfoque modular para separar las responsabilidades de proce
 
 ## Despliegue
 
-El proyecto contempla la posibilidad de desplegar el dashboard mediante **Streamlit Community Cloud**, permitiendo acceder a la aplicación desde un navegador web.
+El dashboard se encuentra desplegado mediante **Streamlit Community Cloud**, permitiendo acceder a la aplicación directamente desde un navegador web sin necesidad de instalar dependencias localmente.
 
-La disponibilidad de una versión pública dependerá de la configuración y publicación del repositorio en dicha plataforma.
+**Aplicación en producción:**
+
+[Online Retail Analytics – Dashboard](https://online-retail-analytics-5mhtjnsdcsvwh7k5eg2tqt.streamlit.app/)
+
+La aplicación permite explorar los resultados del análisis de datos, consultar indicadores clave de desempeño (KPIs) y visualizar información relacionada con el comportamiento de compra y la segmentación de clientes mediante el modelo RFM.
 
 ## Autor
 
@@ -182,4 +191,3 @@ La disponibilidad de una versión pública dependerá de la configuración y pub
 ---
 
 *Proyecto desarrollado con fines de aprendizaje y aplicación práctica de análisis de datos, Python, SQL y visualización de información.*
-
